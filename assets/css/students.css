@@ -1,0 +1,68 @@
+.container {
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+}
+
+.a {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.b {
+  border: 1px solid black;
+}
+
+.b th {
+  color: #153448;
+  padding: 16px;
+  font-size: 32px;
+  border: 1px solid black;
+
+}
+
+.b td {
+  border: 1px solid black;
+  padding: 16px;
+  font-size: 24px;
+
+  color: #344C64;
+}
+
+.c {
+  border: 1px solid black;
+}
+
+.c th {
+ 
+  color: #153448;
+  padding: 16px;
+  font-size: 32px;
+  border: 1px solid black;
+
+}
+
+.d {
+  border: 1px solid black;
+  padding: 16px;
+  color: #344C64;
+  font-size: 24px;
+
+}
+
+.btn {
+  display: flex;
+  gap: 24px;
+  padding-top: 24px;
+  margin: 0 auto;
+  width: fit-content;
+
+}
+
+button {
+  background-color: #686D76;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 16px;
+  border-radius: 8px;
+}

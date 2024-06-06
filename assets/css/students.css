@@ -13,9 +13,9 @@
 }
 
 .b th {
-  color: lightskyblue;
+  color: #153448;
   padding: 16px;
-  font-size: 24px;
+  font-size: 32px;
   border: 1px solid black;
 
 }
@@ -23,7 +23,9 @@
 .b td {
   border: 1px solid black;
   padding: 16px;
-  color: lightcoral;
+  font-size: 24px;
+
+  color: #344C64;
 }
 
 .c {
@@ -32,9 +34,9 @@
 
 .c th {
  
-  color: red;
+  color: #153448;
   padding: 16px;
-  font-size: 24px;
+  font-size: 32px;
   border: 1px solid black;
 
 }
@@ -42,6 +44,9 @@
 .d {
   border: 1px solid black;
   padding: 16px;
+  color: #344C64;
+  font-size: 24px;
+
 }
 
 .btn {
@@ -54,7 +59,7 @@
 }
 
 button {
-  background-color: rgb(16, 54, 54);
+  background-color: #686D76;
   color: #fff;
   border: none;
   cursor: pointer;

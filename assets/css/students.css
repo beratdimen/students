@@ -1,0 +1,63 @@
+.container {
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+}
+
+.a {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.b {
+  border: 1px solid black;
+}
+
+.b th {
+  color: lightskyblue;
+  padding: 16px;
+  font-size: 24px;
+  border: 1px solid black;
+
+}
+
+.b td {
+  border: 1px solid black;
+  padding: 16px;
+  color: lightcoral;
+}
+
+.c {
+  border: 1px solid black;
+}
+
+.c th {
+ 
+  color: red;
+  padding: 16px;
+  font-size: 24px;
+  border: 1px solid black;
+
+}
+
+.d {
+  border: 1px solid black;
+  padding: 16px;
+}
+
+.btn {
+  display: flex;
+  gap: 24px;
+  padding-top: 24px;
+  margin: 0 auto;
+  width: fit-content;
+
+}
+
+button {
+  background-color: rgb(16, 54, 54);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 16px;
+  border-radius: 8px;
+}

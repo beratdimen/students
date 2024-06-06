@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Öğrenci Listesi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/students.css">
+  <script src="assets/js/students.js" defer></script>
 </head>
+
 <body>
-  
+  <div class="container">
+    <div class="a studentsContainer">
+      <table class="b students">
+        <tr>
+          <th>İsim</th>
+          <th>Soyisim</th>
+          <th>Cinsiyet</th>
+          <th>Bölümü</th>
+          <th>Rolü</th>
+        </tr>
+      </table>
+      <table class="c totalStudent">
+        <th>Toplam Öğrenci Sayısı:</th>
+        <td class="d total"></td>
+      </table>
+    </div>
+   <div class="btn">
+    <button id="girlBtn">KIZ ÖĞRENCİ TABLOSU</button>
+    <button id="boyBtn">ERKEK ÖĞRENCİ TABLOSU</button>
+   </div>
+
+    <div class="a girlContainer">
+      <table class="b girlStudents">
+        <tr>
+          <th>İsim</th>
+          <th>Soyisim</th>
+          <th>Cinsiyet</th>
+          <th>Bölümü</th>
+          <th>Rolü</th>
+        </tr>
+      </table>
+      <table class="c totalGirlStudent">
+        <th>Toplam Kız Öğrenci Sayısı:</th>
+        <td class="d totalGirl"></td>
+      </table>
+    </div>
+
+    <div class="a boyContainer">
+      <table class="b boyStudents">
+        <tr>
+          <th>İsim</th>
+          <th>Soyisim</th>
+          <th>Cinsiyet</th>
+          <th>Bölümü</th>
+          <th>Rolü</th>
+        </tr>
+      </table>
+      <table class="c totalboyStudent">
+        <th>Toplam Erkek Öğrenci Sayısı:</th>
+        <td class="d totalBoy"></td>
+      </table>
+    </div>
+
+  </div>
+
 </body>
+
 </html>
